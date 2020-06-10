@@ -1,0 +1,26 @@
+{
+	"name": "react101",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier \"src/**/*.{js,html,css,jsx,json,ts}\" --write",
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet"  
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/immoien/React101.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/immoien/React101/issues"
+	},
+	"homepage": "https://github.com/immoien/React101#readme",
+	"devDependencies": {
+		"eslint": "^7.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"prettier": "^2.0.5"
+	}
+}
