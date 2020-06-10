@@ -1,0 +1,21 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+
+body {
+	background-color: #81a69b;
+	background-image: url(./image-background.png);
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root > div > h1 {
+	display: inline-block;
+	background-image: url(./image-logo.png);
+	width: 279px;
+	height: 76px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
