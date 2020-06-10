@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"format": "prettier \"src/**/*.{js,html,css,jsx,json,ts}\" --write",
-		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet"  
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+		"dev": "parcel src/index.html"
+  
 	},
 	"repository": {
 		"type": "git",
@@ -21,6 +23,7 @@
 	"devDependencies": {
 		"eslint": "^7.2.0",
 		"eslint-config-prettier": "^6.11.0",
+		"parcel-bundler": "^1.12.4",
 		"prettier": "^2.0.5"
 	}
 }
