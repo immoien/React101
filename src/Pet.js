@@ -1,4 +1,5 @@
 import React from 'react';
+
 export default function Pet({ animal, name, breed, media, location, id }) {
 	let hero = 'https://via.placeholder.com/300x300';
 	if (media.length) {
