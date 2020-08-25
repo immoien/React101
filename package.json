@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"clear-build-cache": "rm -rf .cache/ dist/",
 		"format": "prettier \"src/**/*.{js,html,css,jsx,json,ts}\" --write",
 		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
 		"dev": "parcel src/index.html",

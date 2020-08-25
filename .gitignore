@@ -5,3 +5,22 @@ dist/
 coverage/
 .vscode/
 .env
+
+
+# setState
+# useState, useEffect, useRef, useContext, customHooks, useReducer
+
+# createContext
+
+# reach/router => Router, Link, navigate, Redirect
+# React.StrictMode
+
+# static getDerivedStateFromProps
+# getDerivedStateFromError
+
+# componentDidMount
+# componentDidCatch
+# componentDidUpdate
+
+# ErrorBoundary
+# createPortal
